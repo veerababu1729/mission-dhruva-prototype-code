@@ -1,0 +1,436 @@
+/* .mainn{
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+}
+.main1{
+    display: flex;
+    height: 87.7vh;
+    width: 60%;
+    background-color: rgb(86, 68, 41);
+}
+.main1 img{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+.main2{
+    background-color: rgb(255, 255, 255);
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+.numb{
+    background-color: rgb(255, 255, 255);
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px 8px 5px gray;
+}
+.numbo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pait{
+    display: flex;
+    flex-direction: row;
+    width: 100%;;
+}
+.paitl{
+    width: 100%;
+    align-items: first;
+}
+.paitr{
+    width: 100%;
+}
+.marq{
+    width: 100%;
+    padding-top: 10px;
+    
+}
+.outp{
+    margin: 0px;
+    padding: 0px;
+}
+.outp{
+    padding-left: 50px
+} */
+
+/* 
+.mainn {
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+}
+
+.main1 {
+    display: flex;
+    height: 87.7vh;
+    width: 60%;
+    background-color: rgb(86, 68, 41);
+}
+
+.main1 img {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.main2 {
+    background-color: rgb(255, 255, 255);
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.numb {
+    background-color: rgb(255, 255, 255);
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px 8px 5px gray;
+}
+
+.numbo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pait {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.paitl {
+    width: 100%;
+    align-items: first;
+}
+
+.paitr {
+    width: 100%;
+}
+
+.marq {
+    width: 100%;
+    padding-top: 10px;
+}
+
+.outp {
+    margin: 0px;
+    padding: 0px;
+    padding-left: 50px;
+}
+
+
+.mainn {
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+}
+
+.main1 {
+    display: flex;
+    height: 87.7vh;
+    width: 60%;
+    background-color: rgb(86, 68, 41);
+    animation: fadeIn 1s ease;
+}
+
+.main1 img {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.main2 {
+    background-color: rgb(255, 255, 255);
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.numb {
+    background-color: rgb(255, 255, 255);
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px 8px 5px gray;
+    transition: box-shadow 0.3s ease;
+}
+
+.numbo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.numb:hover {
+    box-shadow: 10px 10px 15px 5px gray; 
+}
+
+.marq {
+    width: 100%;
+    padding-top: 10px;
+    animation:forwards 55s linear infinite;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+.outp {
+    margin: 0px;
+    padding: 0px;
+    padding-left: 50px;
+} */
+
+/* Op.css */
+
+.mainn {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.main1 {
+    margin-top: 50px;
+    position: relative;
+    width: 60%;
+}
+
+.main1 img {
+    width: 100%;
+    height: 92vh;
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.overlay-text {
+    font-size: 24px;
+}
+
+.main2 {
+    width: 40%;
+    padding: 30px;
+}
+
+.header {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.appointment-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.appointment-item {
+    text-align: center;
+}
+
+.appointment-item h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.number {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.next-patient {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #f9f9f9;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.patient-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.doctor-info,
+.patient-name {
+    width: 48%;
+}
+
+.doctor-info h2,
+.patient-name h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.doctor-info p,
+.patient-name p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.marquee {
+    margin-bottom: 20px;
+}
+
+.outpatient-list h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.outpatient-list ol {
+    padding-left: 20px;
+}
+
+.outpatient-list li {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+
+/* Op.css */
+
+/* Main Container */
+.op-container {
+    overflow: hidden; /* Ensure child elements don't overflow */
+}
+
+/* Main Content */
+.mainn {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease; /* Fade in animation */
+}
+
+/* Main Image */
+.main1 {
+    position: relative;
+    width: 60%;
+    overflow: hidden;
+    border-top-left-radius: 10px; /* Rounded corners */
+    border-bottom-left-radius: 10px; /* Rounded corners */
+}
+
+.main1 img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s ease; /* Image transition */
+}
+
+.main1:hover img {
+    transform: scale(1.1); /* Zoom effect on hover */
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.5s ease; /* Overlay transition */
+}
+
+.main1:hover .overlay {
+    opacity: 1; /* Show overlay on hover */
+}
+
+
+/* Header */
+.header {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Number of Patients */
+.number {
+    font-size: 32px;
+    font-weight: bold;
+    transition: color 0.5s ease; /* Number transition */
+}
+
+/* Next Patient */
+.next-patient {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #f9f9f9;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.5s ease; /* Next patient transition */
+}
+
+.next-patient:hover {
+    background-color: #ccc; /* Change background color on hover */
+}
+
+
+
+/* Outpatient List */
+.outpatient-list h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.outpatient-list ol {
+    padding-left: 20px;
+}
+
+.outpatient-list li {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+/* Keyframes for animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+

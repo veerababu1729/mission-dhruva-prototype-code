@@ -1,0 +1,141 @@
+/* .outerr{
+    margin: 50px;
+}
+.ports {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 10px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .portsin {
+    flex: 1;
+    height: 25vh;
+    background-color: rgb(255, 255, 255);
+    margin: 5px;
+    display: flex;
+    
+  }
+  .portsin img{
+    flex: 1;
+    height: 24vh;
+    width: 240px;
+    margin: 4px;
+  }
+   */
+
+.hmain img{
+  width: 100%;
+  height: 800px;
+  padding-top: 80px;
+  transition: transform 0.3s ease;
+
+}
+/* .hmain img:hover{ */
+  /* transform: scaleY(2.5rem); */
+  /* transform: translateX(-15px); */
+  /* transform: scale(0.8); */
+/* } */
+.Mainp {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 25px;
+}
+
+.boxin {
+  border: 1px solid #ccc;
+  padding: 20px;
+  /* width: fit-content; */
+}
+
+.boximg {
+  background-color: #8f8f8f;
+  height: 200px;
+  width: 300px;
+  margin-bottom: 10px;
+}
+.boximg img{
+  height: 200px;
+  width: 300px;
+}
+
+.Desc {
+  background-color: #f4f2f2;
+  height: 150px;
+}
+
+.Desc {
+  background-color: #d1cfcf;
+  padding: 20px;
+  /* border-radius: 8px; */
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+.Desc h3 {
+  margin: 0 0 10px; /* Adjust as needed */
+  font-size: 18px; /* Adjust as needed */
+  color: #333; /* Adjust color as needed */
+}
+
+.Desc p {
+  margin: 0; /* Adjust as needed */
+  font-size: 16px; /* Adjust as needed */
+  color: #555; /* Adjust color as needed */
+}
+.butt2 h3{
+  width: auto;
+  padding: 2px;
+  background-color: blue;
+  font-size: larger;
+  border-radius: 5px;
+  margin-top: 75px;
+  color: white;
+}
+
+/* Animate the image */
+.boximg img {
+  transition: transform 0.3s ease;
+}
+
+.boximg:hover img {
+  transform: scale(1.1); /* Zoom in effect on hover */
+}
+
+/* Animate the description */
+.Desc {
+  transition: transform 0.3s ease;
+}
+
+.Desc:hover {
+  transform: translateY(-10px); /* Move up effect on hover */
+}
+
+/* Animate the view button */
+.butt2 {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.boxin:hover .butt2 {
+  opacity: 1; /* Fade in effect on hover */
+}
+
+.butt2 {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.butt2:hover {
+  opacity: 1; /* Change opacity to fully visible on hover */
+}
+
+.butt2 h3.oner {
+  color: #ffffff; /* Initial color */
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.butt2:hover h3.oner {
+  color: rgb(0, 0, 0); /* Change color on hover */
+}

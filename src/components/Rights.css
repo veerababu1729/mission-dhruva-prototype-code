@@ -1,0 +1,8 @@
+.rig{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    margin: 150px;
+    flex-direction: column;
+    margin-top: 5px;
+}

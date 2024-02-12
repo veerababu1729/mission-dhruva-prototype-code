@@ -1,0 +1,167 @@
+.por{
+    height: 100vh;
+    width: 100%;
+    /* margin: 5px; */
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex: 1;
+    flex-direction: column;    
+    justify-content: center;
+    align-items: center;
+}
+.porin{
+    /* background-color: rgb(223, 18, 18); */
+    /* height: 250px; */
+    display: flex;
+    flex-direction:row ;
+    /* flex: 1; */
+    margin: 50px;
+    margin-top: 0px;
+    margin-bottom: 2px;
+
+}
+.porinin{
+    display: flex;
+    flex:3;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.porinn img{
+    height: 200px;
+    width: 100%;
+}
+.hospital-details{
+    display: flex;
+    flex: 2;
+    
+}
+.hospital-info{
+    background-color: rgb(255, 255, 255); 
+    height: 250px;
+    flex: 1;
+
+}
+.ee{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.onerr{
+    margin: 0px;
+    align-items: center;
+    justify-self: center;
+}
+.portss {
+    display: grid;
+    /* width: 93%;  */
+    grid-template-columns: repeat(auto-fill, 4fr); /* 1 row, 4 columns */
+
+}
+
+
+.portsinn img{
+    height: 200px;
+    width: 100%;
+}
+.portss {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2px;
+    width: 93%;
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .portsinn {
+    margin: 25px;
+    
+  }
+  /* Table.css */
+.treatment-table {
+    width: 93%; /* Ensure full width within its container */
+    border-collapse: collapse; /* Merge adjacent borders */
+    border: 1px solid #ddd; /* Thin gray border */
+  }
+  
+  .treatment-table th,
+  .treatment-table td {
+    padding: 8px 16px; /* Consistent padding for better spacing */
+    text-align: left; /* Default text alignment */
+  }
+  
+  .treatment-table th {
+    background-color: #f2f2f2; /* Light gray header background */
+    font-weight: bold; /* Bold text for headers */
+  }
+  
+  /* Responsive design (optional) */
+  @media (max-width: 768px) {
+    .treatment-table {
+      font-size: 14px; /* Adjust font size for smaller screens */
+    }
+  }
+  
+  /* medical-test-table.css */
+.medical-test-table {
+  width: 93%;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+  /* margin-left: 25px; */
+}
+
+.medical-test-table th,
+.medical-test-table td {
+  padding: 8px 16px;
+  text-align: left;
+}
+
+.medical-test-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.medical-test-table td:nth-child(2) {
+  text-align: left;
+}
+
+.portss {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portsinn {
+  position: relative;
+  margin: 10px;
+}
+
+.portsinn img {
+  /* width: 200px; */
+  /* height: auto; */
+  transition: filter 0.3s ease; /* Smooth transition for filter */
+}
+
+.portsinn .description {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+  padding: 10px;
+  border-radius: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Box shadow for depth */
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0.3s, opacity 0.3s ease; /* Smooth transition for visibility and opacity */
+}
+
+.portsinn:hover .description {
+  visibility: visible;
+  opacity: 1;
+}
+
+.portsinn:hover img {
+  filter: blur(3px); /* Blur the image on hover */
+}

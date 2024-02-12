@@ -1,0 +1,117 @@
+/* Base styles */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    /* height: 100%; */
+    flex-direction: column;
+  }
+  
+  /* Login container */
+  .login-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-grow: 1;
+    /* background-color: #f2f2f2; */
+  }
+  /* Login container with full-background image */
+.login-container {
+    background-image: url(../image/login.jpg); /* Replace with your image path */
+    background-size: cover; /* Ensure image covers the whole area */
+    background-position: center; /* Center the image horizontally and vertically */
+    background-repeat: no-repeat; /* Prevent image repetition */
+    height: 100vh; /* Set full viewport height */
+  }
+  
+  
+  /* Left section */
+  .leftma {
+    flex: 3;
+    padding: 3rem;
+    text-align: center;
+    color: #666;
+  }
+  
+  h2 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+  
+  /* Right section */
+  .rightm {
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Center items horizontally */
+  
+    padding: 3rem;
+    /* opacity: 0; */
+    background-color: rgba(255, 255, 255, 0.0); 
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  /* Login form */
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+  }
+  
+  label {
+    margin-bottom: 0.5rem;
+    display: block;
+    color: white;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+  }
+  
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    /* padding: 1rem 2rem; */
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #449A48;
+  }
+  
+  /* Forgot password link */
+  .forgot-password {
+    /* color: #666; */
+    text-decoration: none;
+    margin-top: 1rem;
+  }
+  
+  .forgot-password:hover {
+    color: #4CAF50;
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 768px) {
+    .login-container {
+      flex-direction: column;
+    }
+  
+    .leftma,
+    .rightm {
+      flex: 1;
+    }
+  }
+  
